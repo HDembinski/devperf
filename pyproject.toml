@@ -1,0 +1,19 @@
+[project]
+name = "devperf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gitpython>=3.1.45",
+    "matplotlib>=3.10.8",
+    "numpy>=2.2.6",
+    "polars>=1.38.0",
+    "pydantic>=2.12.5",
+    "requests>=2.32.5",
+    "rich>=14.2.0",
+    "tabulate>=0.9.0",
+]
+
+[project.scripts]
+loc_changed = "devperf.loc_changed:main"
